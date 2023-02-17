@@ -8,10 +8,10 @@ public class Conta {
 	
 	public Conta(int agencia, int numero){
 		Conta.total++;
-		System.out.println("O total de contas é" + Conta.total);
+		//System.out.println("O total de contas é" + Conta.total);
 		this.agencia = agencia;
 		this.numeroDaConta = numero;
-		System.out.println("Estou criando a conta");
+		//System.out.println("Estou criando a conta");
 	}
 
 	public void deposita(double valor) {
